@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="preloader">
+			Загрузка...
+		</div>
+		<div class="wrapper__slider swiper">
+			<div class="swiper-wrapper">
+				<div class="wrapper__slide swiper-slide">
+					<img loading="lazy" src="img/1.jpg" alt="">
+					<div data-viewer="img/sphere.jpg" style="left:50%; top:50%;" class="wrapper__marker">
+						<span>
+							Башня 1
+						</span>
+					</div>
+					<div data-viewer="img/sphere2.jpg" style="left:37%; top:13%;" class="wrapper__marker">
+						<span>
+							Башня 2
+						</span>
+					</div>
+					<div data-viewer="img/sphere3.jpg" style="left:84%; top:16%;" class="wrapper__marker">
+						<span>
+							Башня 3
+						</span>
+					</div>
+				</div>
+				<div class="wrapper__slide swiper-slide">
+					<video loading="lazy" playsinline draggable="false" preload="auto" muted src="img/1.mp4"></video>
+				</div>
+				<div class="wrapper__slide swiper-slide">
+					<img loading="lazy" src="img/2.jpg" alt="">
+					<div data-viewer="img/sphere.jpg" style="left:51%; top:14%;" class="wrapper__marker">
+						<span>
+							Башня 2
+						</span>
+					</div>
+					<div data-viewer="img/sphere2.jpg" style="left:76%; top:40%;" class="wrapper__marker">
+						<span>
+							Башня 3
+						</span>
+					</div>
+					<div data-viewer="img/sphere3.jpg" style="left:45%; top:80%;" class="wrapper__marker">
+						<span>
+							Двор
+						</span>
+					</div>
+				</div>
+				<div class="wrapper__slide swiper-slide">
+					<video loading="lazy" playsinline draggable="false" preload="auto" muted src="img/2.mp4"></video>
+				</div>
+				<div class="wrapper__slide swiper-slide">
+					<img src="img/3.jpg" alt="">
+					<div data-viewer="img/sphere.jpg" style="left:54%; top:30%;" class="wrapper__marker">
+						<span>
+							Башня 3
+						</span>
+					</div>
+					<div data-viewer="img/sphere3.jpg" style="left:63%; top:10%;" class="wrapper__marker">
+						<span>
+							Башня 2
+						</span>
+					</div>
+				</div>
+				<div class="wrapper__slide swiper-slide">
+					<video loading="lazy" playsinline draggable="false" preload="auto" muted src="img/3.mp4"></video>
+				</div>
+				<div class="wrapper__slide swiper-slide">
+					<img loading="lazy" src="img/4.jpg" alt="">
+					<div data-viewer="img/sphere2.jpg" style="left:41%; top:14%;" class="wrapper__marker">
+						<span>
+							Башня 2
+						</span>
+					</div>
+
+					<div data-viewer="img/sphere3.jpg" style="left:70%; top:48%;" class="wrapper__marker">
+						<span>
+							Башня 4
+						</span>
+					</div>
+
+				</div>
+				<div class="wrapper__slide swiper-slide">
+					<video loading="lazy" playsinline draggable="false" preload="auto" muted src="img/4.mp4"></video>
+				</div>
+			</div>
+			<div class="wrapper__arrows">
+				<div class="wrapper__next">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.99995 4.8L16.2 12L8.99995 19.2" stroke="white" stroke-width="2" stroke-linecap="square"></path></svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
